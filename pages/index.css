@@ -7,25 +7,24 @@
 }
 
 .page {
-  padding-top: 28px;
-  max-width: 1024px;
+  padding: 0;
+  padding-top: 16px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .header {
-  max-width: 928px;
-  padding: 0 48px;
-  /* либо макс ширина лишняя,
-  либо отступы */
+  padding: 0 16px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .header__logo {
-  height: 52px;
-  width: 176px;
+  width: 142px;
 }
 
 .header__lang-switch {
@@ -40,9 +39,11 @@
   margin: 0;
   margin-left: 18px;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
+  /* font-size: 24px; */
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.1;
+  /* line-height: 28px; */
   color: white;
   background-color: #2a2c2f;
   border: 0;
@@ -66,39 +67,38 @@
 
 .lead__title {
   margin: 0;
-  padding: 0;
-  padding-top: 48px;
+  padding: 48px 16px 0;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
-  font-size: 96px;
+  font-size: 40px;
   font-weight: 900;
-  line-height: 1.04;
+  line-height: 1.1;
   text-align: center;
   color: white;
 }
 
 .lead__subtitle {
   margin: 0;
-  padding: 0;
-  padding-top: 32px;
+  padding: 16px 16px 0;
+  padding-top: 16px;
   text-align: center;
   color: white;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 .lead__image {
   width: 100%;
   margin: 0;
-  margin-top: 56px;
+  margin-top: 40px;
 }
 
 .lead__caption {
   margin: 0;
   padding: 0;
   padding-top: 8px;
-  padding-left: 48px;
+  padding-left: 16px;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
   font-size: 10px;
   font-weight: 400;
@@ -115,37 +115,29 @@
 
 .intro__title {
   margin: 0;
-  padding: 0;
-  padding-top: 92px;
-  padding-left: 48px;
-  max-width: 690px;
+  padding: 64px 16px 0;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
-  font-size: 54px;
+  font-size: 32px;
   font-weight: 900;
-  line-height: 1.07;
+  line-height: 1.1;
   text-align: left;
   color: white;
 }
 
 .intro__text {
   margin: 0;
-  padding: 0;
-  padding-top: 40px;
-  padding-left: 48px;
-  max-width: 690px;
+  padding: 40px 16px 0;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.63;
+  line-height: 1.6;
   text-align: left;
   color: white;
 }
 
 .intro__list {
   margin: 0;
-  padding: 0;
-  padding-top: 33px;
-  padding-left: 48px;
+  padding: 34px 16px 0;
   list-style: none;
   font-size: 12px;
   line-height: 1.5;
@@ -158,22 +150,107 @@
   margin: 0;
   padding: 0;
   font-weight: 400;
-  display: inline;
 }
 
 .photo-grid {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 12px;
 }
 
 .main__photo-grid {
-  padding-top: 92px;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding: 64px 16px 0;
 }
 
 .photo-grid__item {
   width: 100%;
+  object-fit: cover;
+}
+
+.places {
+  /* section */
+  width: 100%;
+}
+
+.places__list {
+  /* list of grid containers  */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.place {
+  /* grid container*/
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "text";
+}
+
+.place__title {
+  grid-area: title;
+  margin: 0;
+  padding: 64px 16px 0;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: white;
+}
+
+.place__website {
+  grid-area: website;
+  margin: 0;
+  padding: 32px 16px 0;
+}
+
+.place__url-heading {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+}
+
+.place__link {
+  margin: 0;
+  padding: 12px 0px 0;
+  display: block;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: white;
+}
+
+.place__image {
+  grid-area: image;
+  margin: 0;
+  padding: 32px 0 0;
+  width: 100%;
+}
+
+.text {
+  grid-area: text;
+}
+
+.place__paragraph {
+  margin: 0;
+  padding: 25px 16px 0;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.63;
+  color: white;
+}
+
+.place__paragraph:first-child {
+  padding: 32px 16px 0;
 }
