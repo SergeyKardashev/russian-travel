@@ -11,25 +11,22 @@
 
 @media screen and (min-width: 500px) {
   .places__title {
-    /* 500+ */
     font-size: 36px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .places__title {
-    /* 768+ */
     padding-top: 73px;
     padding-bottom: 0;
     padding-left: 24px;
     padding-right: 0;
     font-size: 42px;
-    /* line-height: 1.1; */
   }
 }
+
 @media screen and (min-width: 1024px) {
   .places__title {
-    /* 1024+ */
     padding-top: 80px;
     padding-bottom: 0;
     padding-left: 48px;
@@ -38,9 +35,9 @@
     line-height: 1.06;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .places__title {
-    /* 1280+ */
     padding-left: 148px;
   }
 }

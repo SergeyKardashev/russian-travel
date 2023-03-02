@@ -8,16 +8,9 @@
 
 @media screen and (min-width: 768px) {
   .footer__nav-item {
-    /* 768+ */
     padding-top: 0;
     padding-bottom: 24px;
     padding-left: 0;
     padding-right: 18px;
   }
-}
-
-@media screen and (min-width: 1024px) {
-}
-
-@media screen and (min-width: 1280px) {
 }

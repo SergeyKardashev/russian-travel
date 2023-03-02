@@ -6,10 +6,10 @@
   gap: 12px;
 }
 
-/* !!!!!!!!!
+/*
 this object has yet another class .main__photo-grid
 it describes paddings
-!!!!!!!!! */
+ */
 
 @media screen and (min-width: 768px) {
   .photo-grid {

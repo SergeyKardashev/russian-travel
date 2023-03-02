@@ -9,12 +9,10 @@
 
 @media screen and (min-width: 768px) {
   .footer__copyright {
-    /* 768+ */
     padding-top: 0;
     padding-bottom: 24px;
     padding-left: 0;
     padding-right: 24px;
-
     font-size: 14px;
     line-height: 1.14;
     display: inline;
@@ -23,7 +21,6 @@
 
 @media screen and (min-width: 1024px) {
   .footer__copyright {
-    /* 1024+ */
     padding-right: 48px;
   }
 }

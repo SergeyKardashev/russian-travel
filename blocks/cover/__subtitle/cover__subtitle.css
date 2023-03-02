@@ -14,7 +14,6 @@
 
 @media screen and (min-width: 500px) {
   .cover__subtitle {
-    /* 500+ */
     padding-top: 32px;
     padding-bottom: 50px;
     width: 400px;
@@ -23,7 +22,6 @@
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
-    /* 768+ */
     padding-top: 32px;
     padding-bottom: 115px;
     width: 360px;
@@ -31,16 +29,16 @@
     line-height: 1.22;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .cover__subtitle {
-    /* 1024+ */
     padding-bottom: 195px;
     width: 360px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .cover__subtitle {
-    /* 1280+ */
     padding-bottom: 245px;
     width: 360px;
   }

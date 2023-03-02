@@ -11,24 +11,24 @@
   text-align: left;
   color: white;
 }
+
 @media screen and (min-width: 768px) {
   .intro__text {
-    /* 768+ */
     padding-left: 24px;
-    padding-right: 0px;
+    padding-right: 0;
     width: 720px;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .intro__text {
-    /* 1024+ */
     padding-left: 48px;
     width: 690px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .intro__text {
-    /* 1280+ */
     padding-left: 148px;
   }
 }

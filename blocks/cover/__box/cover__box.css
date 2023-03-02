@@ -1,5 +1,5 @@
 .cover__box {
-  background-image: url(/images/cover-trains.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -12,6 +12,7 @@
   margin-top: 66px;
   z-index: 0;
 }
+
 .cover__box::before {
   content: "";
   width: 100%;
@@ -25,17 +26,13 @@
   opacity: 30%;
   z-index: -1;
 }
+
 .cover__box:hover::before {
   opacity: 80%;
-  /* cursor: pointer; */
 }
+
 @media screen and (min-width: 768px) {
   .cover__box {
-    /* 768+ */
     margin-top: 90px;
   }
-}
-@media screen and (min-width: 1024px) {
-}
-@media screen and (min-width: 1280px) {
 }

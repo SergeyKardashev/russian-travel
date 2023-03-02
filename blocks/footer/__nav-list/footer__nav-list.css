@@ -8,7 +8,6 @@
 
 @media screen and (min-width: 768px) {
   .footer__nav-list {
-    /* 768+ */
     padding-top: 88px;
     padding-bottom: 0;
     padding-left: 24px;
@@ -19,11 +18,7 @@
 
 @media screen and (min-width: 1024px) {
   .footer__nav-list {
-    /* 1024+ */
     padding-top: 92px;
     padding-left: 48px;
   }
-}
-
-@media screen and (min-width: 1280px) {
 }

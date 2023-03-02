@@ -5,7 +5,6 @@
   padding-right: 0;
   padding-left: 0;
   width: 288px;
-  /* max-width: calc(100% - 16px * 2); */
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
   font-size: 32px;
   font-weight: 900;
@@ -15,7 +14,6 @@
 
 @media screen and (min-width: 500px) {
   .cover__title {
-    /* 500+ */
     padding-top: 55px;
     font-size: 50px;
     width: 400px;
@@ -24,22 +22,21 @@
 
 @media screen and (min-width: 768px) {
   .cover__title {
-    /* 768+ */
     padding-top: 115px;
     width: 560px;
     font-size: 72px;
     line-height: 1.06;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .cover__title {
-    /* 1024+ */
     padding-top: 195px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .cover__title {
-    /* 1280+ */
     padding-top: 245px;
   }
 }

@@ -14,29 +14,24 @@
 
 @media screen and (min-width: 768px) {
   .intro__list {
-    /* 768+ */
     padding-top: 37px;
-    padding-bottom: 0;
     padding-left: 24px;
     padding-right: 24px;
     width: 720px;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .intro__list {
-    /* 1024+ */
     padding-top: 33px;
-    padding-bottom: 0;
     padding-left: 48px;
     padding-right: 48px;
     width: 690px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .intro__list {
-    /* 1280+ */
-    padding-top: 33px;
-    padding-bottom: 0;
     padding-left: 148px;
     padding-right: 0;
   }

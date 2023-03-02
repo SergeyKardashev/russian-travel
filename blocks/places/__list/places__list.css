@@ -9,14 +9,13 @@
 @media screen and (min-width: 768px) {
   .places__list {
     /* list of grid containers  */
-    /* 768+ */
     padding-top: 15px;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .places__list {
     /* list of grid containers  */
-    /* 1024+ */
     padding-top: 12px;
   }
 }
