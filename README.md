@@ -24,4 +24,4 @@
 
 **Ссылка на GitHub Pages**
 
-- [Проект Путешествие по России на GitHub Pages](#)
+- [Проект Путешествие по России на GitHub Pages](https://sergeykardashev.github.io/russian-travel/)
