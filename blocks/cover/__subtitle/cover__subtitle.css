@@ -22,7 +22,6 @@
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
-    padding-top: 32px;
     padding-bottom: 115px;
     width: 360px;
     font-size: 18px;
@@ -33,13 +32,11 @@
 @media screen and (min-width: 1024px) {
   .cover__subtitle {
     padding-bottom: 195px;
-    width: 360px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__subtitle {
     padding-bottom: 245px;
-    width: 360px;
   }
 }

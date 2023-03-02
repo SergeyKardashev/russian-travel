@@ -9,10 +9,7 @@
   color: white;
   background-color: #2a2c2f;
   border: 0;
-}
-
-.header__lang-link:disabled {
-  border-bottom: 2px solid white;
+  text-decoration: none;
 }
 
 .header__lang-link:hover {

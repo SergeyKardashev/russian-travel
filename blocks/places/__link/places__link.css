@@ -8,3 +8,7 @@
   line-height: 1.2;
   color: white;
 }
+
+.places__link:hover {
+  opacity: 80%;
+}

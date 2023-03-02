@@ -36,3 +36,11 @@
     margin-top: 90px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .cover__box {
+    width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

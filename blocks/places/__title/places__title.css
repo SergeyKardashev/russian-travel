@@ -1,7 +1,10 @@
 .places__title {
   grid-area: title;
   margin: 0;
-  padding: 50px 16px 0;
+  padding-top: 50px;
+  padding-bottom: 0;
+  padding-left: 16px;
+  padding-right: 16px;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
   font-size: 32px;
   font-weight: 900;
@@ -18,7 +21,6 @@
 @media screen and (min-width: 768px) {
   .places__title {
     padding-top: 73px;
-    padding-bottom: 0;
     padding-left: 24px;
     padding-right: 0;
     font-size: 42px;
@@ -28,9 +30,7 @@
 @media screen and (min-width: 1024px) {
   .places__title {
     padding-top: 80px;
-    padding-bottom: 0;
     padding-left: 48px;
-    padding-right: 0;
     font-size: 72px;
     line-height: 1.06;
   }
