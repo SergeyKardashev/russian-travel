@@ -15,6 +15,11 @@
   border-bottom: 2px solid white;
 }
 
+.header__lang-link:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
   .header__lang-link {
     font-size: 24px;
